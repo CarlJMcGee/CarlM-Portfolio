@@ -17,6 +17,16 @@ body {
     background-color: var(--tertiary-color);
 }
 
+/* section headers */
+    .section-head {
+        text-align: center;
+        width: 20%;
+        margin: 10px auto;
+        font-size: 2vw;
+        color: var(--secondary-color);
+        border-bottom: 2px solid var(--accent-color);
+    }
+
 /* header start */
     header {
         background-color: var(--primary-color);
@@ -26,6 +36,7 @@ body {
         justify-content: space-between;
     }
     
+    /* title */
     .title-container {
         display: flex;
         width: 30%;
@@ -82,7 +93,7 @@ body {
     }
 /* header end */
 
-    /* side accent column */
+/* side accent column */
     .side-bar {
         content: "";
         height: 100%;
@@ -91,5 +102,38 @@ body {
         left: 0;
         top: 0;
         background-color: var(--primary-color);
-        
+    }
+
+/* About me start */
+
+    .WIA {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: var(--secondary-color);
+    }
+
+    /* title */
+    .WIA h3 {
+        color: var(--accent-color);
+        border-color: var(--primary-color);
+    }
+
+    /* about info */
+    .about-info-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-info-container img {
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .about-info-container p {
+        font-size: 25px;
+        margin: 25px 10px 10px 31px;
+        width: 30%;
+        text-align: right;
+        color: whitesmoke;
     }
