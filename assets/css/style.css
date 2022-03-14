@@ -34,6 +34,9 @@ body {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
     }
     
     /* title */
@@ -45,7 +48,7 @@ body {
         margin: 0 15px;
     }
     
-    header h1 {
+    header a h1 {
         font-size: 25px;
         flex: 1;
         color: var(--secondary-color);
@@ -53,7 +56,7 @@ body {
         z-index: 9999;
     }
     
-    header h2 {
+    header a h2 {
         font-size: 50px;
         flex: 1;
         color: var(--secondary-color);
@@ -136,4 +139,35 @@ body {
         width: 30%;
         text-align: right;
         color: whitesmoke;
+    }
+
+/* previous work */
+    /* latest project */
+    .latest-work {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .latest-work h3 {
+        color: var(--accent-color);
+        font-size: 25px;
+        position: relative;
+        left: 119px;
+        top: -20px;
+    }
+
+    .latest-work a {
+        width: 50%;
+    }
+    
+    .latest-work img {
+        width: 100%;
+        margin: 10px auto;
+        border: 3px hidden var(--accent-color);
+    }
+
+    .latest-work img:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 50%);
+        border: 3px solid var(--accent-color);
     }
