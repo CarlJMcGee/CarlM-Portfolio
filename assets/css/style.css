@@ -197,7 +197,7 @@ body {
     .old-work {
         content: "";
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
         color: red;
         margin: 20px auto;
         flex: 1 49%;
@@ -207,7 +207,7 @@ body {
     
     .old-work:hover {
         box-shadow: 0 0 0.9375em rgba(0, 0, 0, 50%);
-        border: 0.1875em solid var(--accent-color);
+        border: 3px solid var(--accent-color);
     }
 /* previous work end */
 
