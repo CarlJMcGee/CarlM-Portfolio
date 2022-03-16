@@ -19,3 +19,6 @@ Contact section items link to respective sites and apps
 Site has been optimized with multiple break points to allow for easy viewing on a variety of display sizes
 
 Text and images resize to fit various viewport sizes
+
+
+[![screenshot](./assets/images/deployed%20screenshot.png)](https://carljmcgee.github.io/CarlM-Portfolio/)
