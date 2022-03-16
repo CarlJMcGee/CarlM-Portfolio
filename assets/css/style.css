@@ -21,10 +21,10 @@ body {
     .section-head {
         text-align: center;
         width: 20%;
-        margin: 10px auto;
-        font-size: 38px;
+        margin: 0.625em auto;
+        font-size: 2.375em;
         color: var(--secondary-color);
-        border-bottom: 2px solid var(--accent-color);
+        border-bottom: 0.125em solid var(--accent-color);
     }
 
 /* header start */
@@ -45,28 +45,28 @@ body {
         width: 30%;
         justify-content: center;
         flex-direction: column;
-        margin: 0 15px;
+        margin: 0 0.9375em;
     }
     
     header a h1 {
-        font-size: 25px;
+        font-size: 1.5625em;
         flex: 1;
         color: var(--secondary-color);
-        text-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+        text-shadow: 0 0 0.625em rgba(0, 0, 0, 50%);
         z-index: 9999;
     }
     
     header a h2 {
-        font-size: 50px;
+        font-size: 3.125em;
         flex: 1;
         color: var(--secondary-color);
-        text-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+        text-shadow: 0 0 0.625em rgba(0, 0, 0, 50%);
         z-index: 9999;
     }
     
     /* navigation */
     .nav-container {
-        margin: 10px 15px;
+        margin: 0.625em 0.9375em;
     } 
     
     .nav-container ul {
@@ -77,7 +77,7 @@ body {
     }
     
     .nav-container ul li {
-        padding: 20px 15px;
+        padding: 1.25em 0.9375em;
         font-weight: lighter;
         font-size: 1.55vw;
     }
@@ -85,12 +85,12 @@ body {
     .nav-container ul li a {
         color: var(--primary-color);
         background-color: var(--accent-color);
-        border-radius: 20px;
-        padding: 5px 3px;
+        border-radius: 1.25em;
+        padding: 0.3125em 0.1875em;
     }
     
     .nav-container ul li a:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+        box-shadow: 0 0 0.625em rgba(0, 0, 0, 50%);
         color: var(--accent-color);
         background-color: var(--secondary-color);
     }
@@ -100,7 +100,7 @@ body {
     .side-bar {
         content: "";
         height: 100%;
-        width: 30px;
+        width: 1.875em;
         position: fixed;
         left: 0;
         top: 0;
@@ -110,8 +110,8 @@ body {
 /* About me start */
 
     .WIA {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 1.25em;
+        padding-bottom: 1.25em;
         background-color: var(--secondary-color);
     }
 
@@ -129,13 +129,13 @@ body {
     }
 
     .about-info-container img {
-        height: 500px;
-        margin-top: 30px;
+        height: 31.25em;
+        margin-top: 1.875em;
     }
 
     .about-info-container p {
-        font-size: 25px;
-        margin: 25px 10px 10px 31px;
+        font-size: 1.5625em;
+        margin: 1.5625em 0.625em 0.625em 1.9375em;
         width: 30%;
         text-align: right;
         color: whitesmoke;
@@ -145,17 +145,17 @@ body {
 /* previous work start */
     /* latest project */
     .latest-work {
-        margin-top: 30px;
+        margin-top: 1.875em;
         display: flex;
         justify-content: center;
     }
 
     .latest-work h3 {
         color: var(--accent-color);
-        font-size: 25px;
+        font-size: 1.5625em;
         position: relative;
-        left: 119px;
-        top: -20px;
+        left: 5.438em;
+        top: -1.25em;
     }
 
     .latest-work a {
@@ -164,19 +164,19 @@ body {
     
     .latest-work img {
         width: 100%;
-        margin: 10px auto;
-        border: 3px hidden var(--accent-color);
+        margin: 0.625em auto;
+        border: 0.1875em hidden var(--accent-color);
     }
 
     .latest-work img:hover {
-        box-shadow: 0 0 15px rgba(0, 0, 0, 50%);
-        border: 3px solid var(--accent-color);
+        box-shadow: 0 0 0.9375em rgba(0, 0, 0, 50%);
+        border: 0.1875em solid var(--accent-color);
     }
 /* previous work end */
 
 /* footer */
 footer {
-    padding: 20px auto;
+    padding: 1.25em auto;
     background-color: var(--accent-color);
 }
 
@@ -184,8 +184,8 @@ footer {
     .GIT h3 {
         color: var(--primary-color);
         border-color: var(--tertiary-color);
-        margin: 10px auto;
-        padding-top: 30px;
+        margin: 0.625em auto;
+        padding-top: 1.875em;
     }
 
 /* contact info */
@@ -195,8 +195,8 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 10px;
-        padding-bottom: 50px;
+        gap: 0.625em;
+        padding-bottom: 3.125em;
     }
     .contact-info-container ul > * {
         flex: 1 100%;
@@ -209,10 +209,85 @@ footer {
     }
     .contact-info-container ul li a {
         text-decoration: none;
-        font-size: 25px;
+        font-size: 1.5625em;
         color: var(--primary-color);
         flex: 3;
         }
     .contact-info-container ul li a img {
         width: 16%;
+        min-width: 1.4375em;
     }
+
+    .contact-info-container ul li a:hover {
+        color: var(--secondary-color);
+        text-shadow: 0 0 0 rgba(0, 0, 0, 50%);
+    }
+
+/* mobile breakpoints */
+
+@media screen and (max-width: 1050px) {
+    .title-container {
+        flex: 1;
+    }
+    .nav-container {
+        flex: 2;
+    }
+    .nav-container ul {
+        align-items: center;
+    }
+    .nav-container ul li {
+        font-size: 1.3125em;
+    }
+
+    .latest-work {
+        position: relative;
+        left: -7%;
+    }
+}
+
+@media screen and (max-width: 51.3125em) {
+    .nav-container ul li {
+        min-width: 182px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .about-info-container p {
+        font-size: 1.5625em;
+        margin: 0.563em 0.625em 0.625em 1.9375em;
+        width: 75%;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .about-info-container img {
+        height: 23.25em;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    header {
+        flex-direction: column;
+        position: static;
+    }
+    
+    .title-container {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .nav-container ul {
+        flex-direction: column;
+    }
+
+    .nav-container ul li {
+        padding: 0.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-info-container img {
+        height: 15.25em;
+    }
+}
