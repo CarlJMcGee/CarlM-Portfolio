@@ -22,7 +22,7 @@ body {
         text-align: center;
         width: 20%;
         margin: 10px auto;
-        font-size: 2vw;
+        font-size: 38px;
         color: var(--secondary-color);
         border-bottom: 2px solid var(--accent-color);
     }
@@ -140,8 +140,9 @@ body {
         text-align: right;
         color: whitesmoke;
     }
+/* about me end */
 
-/* previous work */
+/* previous work start */
     /* latest project */
     .latest-work {
         margin-top: 30px;
@@ -170,4 +171,48 @@ body {
     .latest-work img:hover {
         box-shadow: 0 0 15px rgba(0, 0, 0, 50%);
         border: 3px solid var(--accent-color);
+    }
+/* previous work end */
+
+/* footer */
+footer {
+    padding: 20px auto;
+    background-color: var(--accent-color);
+}
+
+/* heading */
+    .GIT h3 {
+        color: var(--primary-color);
+        border-color: var(--tertiary-color);
+        margin: 10px auto;
+        padding-top: 30px;
+    }
+
+/* contact info */
+    .contact-info-container ul {
+        margin: 0 auto 0 auto;
+        max-width: 42%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        padding-bottom: 50px;
+    }
+    .contact-info-container ul > * {
+        flex: 1 100%;
+        max-width: 40%;
+    }
+    .contact-info-container ul li {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-info-container ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: var(--primary-color);
+        flex: 3;
+        }
+    .contact-info-container ul li a img {
+        width: 16%;
     }
